@@ -39,7 +39,7 @@ export const createBook = async (req, res) => {
 
     }
 
-    export const deleteBook = async (req, res) => {
+    export const deleteBook = async (req, res) => { 
     const { bookId } = req.params
 
     try {
